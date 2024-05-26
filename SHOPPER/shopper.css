@@ -205,7 +205,6 @@ color: gray;
 }
 .img1{
   
-        /* background-image: url('img/bag2.png'); */
         background-image: linear-gradient(to top , rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url('img/bag2.png');
         background-size: cover;   
         display: flex;
@@ -250,7 +249,6 @@ color: gray;
 
       .img3{
   
-        /* background-image: url('img/bag2.png'); */
         background-image: linear-gradient(to top , rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url('img/print.png');
         background-size: cover;   
         display: flex;
