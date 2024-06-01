@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+   
+    <div class="container">
+      <div class="title">
+        <P>
+           <img src="img/redapp.png" width="50px" height="50px">
+        </P>
+       <p class="main">REDAPP</p>
+       <P class="sub-main">A cxx initiative</P>
+   </div>
+        <form onsubmit="return LoginClick()" class="loginform">
+          <fieldset> 
+
+            <legend>&nbsp; Username &nbsp;
+
+            </legend>
+             <input type="text" placeholder="Username" onkeyup="VerifyName()"   id="UserInput">
+
+          </fieldset>
+          <fieldset>
+
+            <legend> &nbsp; Password  &nbsp;</legend>
+             <input type="password"  placeholder="Password" id="PswrdInput"  >
+
+
+          </fieldset>
+          <button type="submit">LOGIN</button>
+
+            <p id="link"><a href="">Forgot your Password?</a></p>
+
+              <p id="error"></p>
+
+        </form>
+    </div>
+    <script src="test.js"></script>
+</body>
+</html>
